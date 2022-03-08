@@ -1,16 +1,34 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.navbar-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.navbar-text {
+  color: #fff;
 }
 
-* {
-  box-sizing: border-box;
+.mainLayout-children {
+  padding: 0px 20px;
+}
+
+.favorites-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  justify-content: center;
+}
+
+.favorites-image {
+  width: 250px;
+  height: 250px;
+  opacity: 0.1;
+}
+
+.favorites-card {
+  padding: 10px;
 }
